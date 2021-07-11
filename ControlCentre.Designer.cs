@@ -33,6 +33,7 @@ namespace MoonBuggyGUI
             this.button1 = new System.Windows.Forms.Button();
             this.Logout = new System.Windows.Forms.Button();
             this.Back = new System.Windows.Forms.Button();
+            this.AutoPilotOff = new System.Windows.Forms.Button();
             this.circularButton4 = new MoonBuggyGUI.CircularButton();
             this.circularButton3 = new MoonBuggyGUI.CircularButton();
             this.circularButton2 = new MoonBuggyGUI.CircularButton();
@@ -59,12 +60,13 @@ namespace MoonBuggyGUI
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(239, 347);
+            this.button1.Location = new System.Drawing.Point(161, 348);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 32);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Autopilot";
+            this.button1.Text = "Autopilot On ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Logout
             // 
@@ -85,6 +87,21 @@ namespace MoonBuggyGUI
             this.Back.Text = "Back";
             this.Back.UseVisualStyleBackColor = true;
             this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
+            // AutoPilotOff
+            // 
+            this.AutoPilotOff.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.AutoPilotOff.Enabled = false;
+            this.AutoPilotOff.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.AutoPilotOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AutoPilotOff.ForeColor = System.Drawing.SystemColors.Control;
+            this.AutoPilotOff.Location = new System.Drawing.Point(298, 348);
+            this.AutoPilotOff.Name = "AutoPilotOff";
+            this.AutoPilotOff.Size = new System.Drawing.Size(131, 32);
+            this.AutoPilotOff.TabIndex = 12;
+            this.AutoPilotOff.Text = "Autopilot off";
+            this.AutoPilotOff.UseVisualStyleBackColor = false;
+            this.AutoPilotOff.Click += new System.EventHandler(this.AutoPilotOff_Click);
             // 
             // circularButton4
             // 
@@ -182,6 +199,7 @@ namespace MoonBuggyGUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(640, 431);
+            this.Controls.Add(this.AutoPilotOff);
             this.Controls.Add(this.Back);
             this.Controls.Add(this.Logout);
             this.Controls.Add(this.button1);
@@ -215,5 +233,6 @@ namespace MoonBuggyGUI
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Logout;
         private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.Button AutoPilotOff;
     }
 }
