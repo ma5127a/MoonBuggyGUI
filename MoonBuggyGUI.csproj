@@ -52,6 +52,9 @@
     <Compile Include="Camera.Designer.cs">
       <DependentUpon>Camera.cs</DependentUpon>
     </Compile>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CommandCentre.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -16,5 +16,27 @@ namespace MoonBuggyGUI
         {
             InitializeComponent();
         }
+
+        private void triangleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void circularButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CommandCentre ss = new CommandCentre();
+            ss.Show();
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

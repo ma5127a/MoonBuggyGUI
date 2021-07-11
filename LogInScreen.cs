@@ -37,6 +37,9 @@ namespace MoonBuggyGUI
 
         private void Login_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            CommandCentre ss = new CommandCentre();
+            ss.Show();
            /* string user, pass;
             user = txtUser.text;
             pass = txtPass.text;

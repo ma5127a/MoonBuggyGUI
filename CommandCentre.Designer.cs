@@ -58,6 +58,7 @@ namespace MoonBuggyGUI
             this.ControlCentre.TabIndex = 1;
             this.ControlCentre.Text = "Control Centre";
             this.ControlCentre.UseVisualStyleBackColor = true;
+            this.ControlCentre.Click += new System.EventHandler(this.ControlCentre_Click);
             // 
             // Network
             // 

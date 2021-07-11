@@ -21,5 +21,12 @@ namespace MoonBuggyGUI
         {
 
         }
+
+        private void ControlCentre_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ControlCentre ss = new ControlCentre();
+            ss.Show();
+        }
     }
 }
