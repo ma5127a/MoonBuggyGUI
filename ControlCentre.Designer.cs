@@ -59,7 +59,7 @@ namespace MoonBuggyGUI
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(213, 309);
+            this.button1.Location = new System.Drawing.Point(239, 347);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 32);
             this.button1.TabIndex = 9;
@@ -68,7 +68,7 @@ namespace MoonBuggyGUI
             // 
             // Logout
             // 
-            this.Logout.Location = new System.Drawing.Point(551, 330);
+            this.Logout.Location = new System.Drawing.Point(551, 388);
             this.Logout.Name = "Logout";
             this.Logout.Size = new System.Drawing.Size(78, 26);
             this.Logout.TabIndex = 10;
@@ -78,7 +78,7 @@ namespace MoonBuggyGUI
             // 
             // Back
             // 
-            this.Back.Location = new System.Drawing.Point(460, 330);
+            this.Back.Location = new System.Drawing.Point(460, 388);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(78, 26);
             this.Back.TabIndex = 11;
@@ -181,7 +181,7 @@ namespace MoonBuggyGUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(640, 450);
+            this.ClientSize = new System.Drawing.Size(640, 431);
             this.Controls.Add(this.Back);
             this.Controls.Add(this.Logout);
             this.Controls.Add(this.button1);

@@ -68,6 +68,7 @@ namespace MoonBuggyGUI
             this.Network.TabIndex = 2;
             this.Network.Text = "Network ";
             this.Network.UseVisualStyleBackColor = true;
+            this.Network.Click += new System.EventHandler(this.Network_Click);
             // 
             // Camera
             // 
@@ -77,6 +78,7 @@ namespace MoonBuggyGUI
             this.Camera.TabIndex = 3;
             this.Camera.Text = "Camera";
             this.Camera.UseVisualStyleBackColor = true;
+            this.Camera.Click += new System.EventHandler(this.Camera_Click);
             // 
             // Sensors
             // 
@@ -86,6 +88,7 @@ namespace MoonBuggyGUI
             this.Sensors.TabIndex = 4;
             this.Sensors.Text = "Sensors";
             this.Sensors.UseVisualStyleBackColor = true;
+            this.Sensors.Click += new System.EventHandler(this.Sensors_Click);
             // 
             // Issue
             // 
@@ -95,6 +98,7 @@ namespace MoonBuggyGUI
             this.Issue.TabIndex = 5;
             this.Issue.Text = "Report an issue";
             this.Issue.UseVisualStyleBackColor = true;
+            this.Issue.Click += new System.EventHandler(this.Issue_Click);
             // 
             // Logout
             // 
@@ -104,6 +108,7 @@ namespace MoonBuggyGUI
             this.Logout.TabIndex = 6;
             this.Logout.Text = "Logout";
             this.Logout.UseVisualStyleBackColor = true;
+            this.Logout.Click += new System.EventHandler(this.Logout_Click);
             // 
             // CommandCentre
             // 
