@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CameraSDKLauncher">
+      <HintPath>..\..\..\..\..\Program Files\Ozeki\Ozeki SDK\Launcher\CameraSDKLauncher.exe</HintPath>
+    </Reference>
+    <Reference Include="OzekiSDK">
+      <HintPath>..\..\OzekiSDK.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -127,6 +133,7 @@
     <EmbeddedResource Include="Sensors.resx">
       <DependentUpon>Sensors.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
