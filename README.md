@@ -23,7 +23,7 @@ problem issue form. this page as well as every other page apart from the login i
 has a return button to come back to the command centre.
 
 CONTROL CENTRE:
-This interface section contains the controls for the robot incase manual control of the robot is desired. the triangular buttons on the control centre are used for
+This interface section contains the controls for the robot incase manual control of the robot is desired. the software has custome made triangular and circular buttons which have been made as a new class using FillPolygon function and SolidBrush function as well as AddPolygon .the triangular buttons on the control centre are used for
 controlling the movememnts of the moon buggy. the circular buttons are used to control the arm of the moon buggy inclcuding a button to make the arm grip and a button
 to make the arm release its grip. the form also contains an auto pilot button which will allow the robot to turn off manual controls and a turn off auto pilot button
 which return controls to manual.
@@ -31,7 +31,7 @@ which return controls to manual.
 CAMERA:
 This screen contains a panel with will display live feed from a camera connected using internet connection the internet ip address of the camera needs to be entered,
 this camera function has the characteristics of ONVIF Technology, it also used ozeki camera SDK and libraries downloaded from google and attached to the software.
-there are two buttons on the camera one to turn off the camera and discconect the live feed and one to enable the camera and re-establish the connection.
+there are two buttons on the camera one to turn off the camera and discconect the live feed and one to enable the camera and re-establish the connection.the camera code has a custome made camera 
 
 NETWORK
 The network section of the app will contain the network information if the camera is connected and the moonbuggy, the packet transmittion rate, the packet loss rate
