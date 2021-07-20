@@ -41,7 +41,7 @@ namespace MoonBuggyGUI
             _videoViewerWF1 = new VideoViewerWF();
             _speaker = Speaker.GetDefaultDevice();
             _videoViewerWF1.Name = "videoViewerWF1";
-            _videoViewerWF1.Size = panel1.Size;
+             _videoViewerWF1.Size = panel1.Size;
             panel1.Controls.Add(_videoViewerWF1);
             // Bind the camera image to the UI control
             _videoViewerWF1.SetImageProvider(_imageProvider);
@@ -77,7 +77,7 @@ namespace MoonBuggyGUI
             this.ClientSize = new System.Drawing.Size(274, 264);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.connectBtn);
-            this.Name = "Form1";
+            this.Name = "Camera";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IP Camera\'s Live Image";
             this.ResumeLayout(false);

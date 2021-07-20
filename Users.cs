@@ -14,7 +14,7 @@ namespace MoonBuggyGUI
 
         public string   NetworkingTeam = "Networker", NetworkingPwd = "Networker";
 
-        public string TestTeam = "Tester", testPwd = "Tester";
+        public string TestTeam = "Tester", TestPwd = "Tester";
 
         public string EDTeam = "E&DBranch", EDPwd = "E&DBranch";
 

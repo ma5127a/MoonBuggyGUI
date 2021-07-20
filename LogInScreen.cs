@@ -27,7 +27,7 @@ namespace MoonBuggyGUI
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            // password entered here. the password is invisible however key works
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -37,19 +37,22 @@ namespace MoonBuggyGUI
 
         private void Login_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            CommandCentre ss = new CommandCentre();
-            ss.Show();
-           /* string user, pass;
-            user = txtUser.text;
-            pass = txtPass.text;
-
-            if(user.NavigationTeam == txtUser.text && user.NavigationPwd == txtPass.txt)
+           
+            // a check  when loging in to check if the right user is logging in
+            if(users.NavigationTeam == textBox1.Text && users.NavigationPwd == textBox2.Text || users.NetworkingTeam == textBox1.Text && users.NetworkingPwd == textBox2.Text
+                || users.TestTeam == textBox1.Text && users.TestPwd == textBox2.Text || users.EDTeam == textBox1.Text && users.EDPwd == textBox2.Text
+                || users.BuggyTeam == textBox1.Text && users.BuggyPwd == textBox2.Text || users.ArmTeam == textBox1.Text && users.ArmPwd == textBox2.Text ||
+                users.VisualTeam == textBox1.Text && users.VisualPwd == textBox2.Text)
             {
-
+                this.Hide();
+                CommandCentre ss = new CommandCentre();
+                ss.Show();
+             }
+            else // error message
+            {
+                MessageBox.Show("Plaease enter the correct username or password!");
             }
-            else() { }
-           */
+           
         }
 
         private void LogInScreen_Load(object sender, EventArgs e)

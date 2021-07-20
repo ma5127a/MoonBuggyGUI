@@ -125,6 +125,7 @@ namespace MoonBuggyGUI
             this.Controls.Add(this.Title);
             this.Name = "CommandCentre";
             this.Text = "MoonBggy App";
+            this.Load += new System.EventHandler(this.CommandCentre_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

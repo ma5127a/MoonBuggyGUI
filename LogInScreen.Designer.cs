@@ -87,6 +87,7 @@ namespace MoonBuggyGUI
             // 
             // textBox2
             // 
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(203, 191);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(97, 20);
